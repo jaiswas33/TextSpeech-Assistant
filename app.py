@@ -1,5 +1,6 @@
 import vertexai
 from flask import Flask, render_template, request, jsonify
+from vertexai.preview.generative_models import GenerativeModel
 import speech_recognition as sr
 from google.cloud import texttospeech
 import base64
